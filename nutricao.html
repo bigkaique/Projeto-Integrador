@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Receitas por Ingredientes</title>
+  <link rel="stylesheet" href="css/nutricao.css">
+</head>
+<body>
+  
+    
+ <!-- Menu de navegação -->
+  <nav class="menu">
+    <a href="exercicios.html">🏋️ Exercícios</a>
+    <a href="nutricao.html">🥗 Nutrição</a>
+    <!---- <a href="metricas.html">📊 Sua Evolucao até aqui</a> -->
+    <a href="questionario.html">📓 Voltar para o diario</a>
+    
+  </nav>
+  
+
+  <!-- Título principal -->
+  <h1>Encontre Receitas com o que Você Tem</h1>
+
+  <!-- Campo de busca -->
+  <label for="ingredientes">
+    <h3 style="margin-bottom: 10px;">Digite os ingredientes (separados por vírgula):</h3>
+  </label>
+  <input type="text" id="ingredientes" placeholder="Ex: ovo, tomate, arroz" />
+
+  <!-- Botões -->
+  <button onclick="buscarReceitas()">Buscar Receitas</button>
+  <button onclick="limparReceitas()">Limpar</button>
+
+  <!-- Resultados -->
+  <div id="receitas"></div>
+
+  <script src="js/nutricao.js"></script>
+</body>
+</html>

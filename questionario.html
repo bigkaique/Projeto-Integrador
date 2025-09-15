@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeSide - Início</title>
+    <link rel="stylesheet" href="css/questionario.css">
+</head>
+<body>
+    <video autoplay muted loop playsinline id="video-background">
+        <source src="video/Rotina.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <header>
+        <h2 class="logo">LifeSide</h2>
+        <nav class="navegacao">
+            <a href="index.html">Início</a>
+            <a href="questionario.html">Diário</a>
+            <a href="nutricao.html">Nutrição</a>
+            <a href="exercicios.html">Exercícios</a>
+            <a href="metricas.html">Métricas</a>
+            <a href="About.html">Sobre nós</a>
+        </nav>
+    </header>
+
+    <div id="toast" class="toast"></div>
+
+    <div class="wrapper2">
+        <!-- Painel Esquerdo: Informações Pessoais -->
+        <div class="left-panel painel ativo">
+            <h2>Informações Pessoais</h2>
+            <form id="infoForm">
+                <label>Nome: <input type="text" id="nome"></label>
+                <label>Idade: <input type="number" id="idade"></label>
+                <label>Peso (kg): <input type="number" id="peso"></label>
+                <label>Altura (cm): <input type="number" id="altura"></label>
+
+                <div class="vicios-container">
+                    <label class="vicio-checkbox">
+                        <input type="checkbox" name="vicios" value="pornografia">
+                        Pornografia
+                    </label>
+                    <label class="vicio-checkbox">
+                        <input type="checkbox" name="vicios" value="redes">
+                        Redes Sociais
+                    </label>
+                    <label class="vicio-checkbox">
+                        <input type="checkbox" name="vicios" value="bebidas">
+                        Bebidas
+                    </label>
+                    <label class="vicio-checkbox">
+                        <input type="checkbox" name="vicios" value="cigarro">
+                        Cigarro
+                    </label>
+                    <label class="vicio-checkbox">
+                        <input type="checkbox" name="vicios" value="apostas">
+                        Apostas/Bets
+                    </label>
+                </div>
+
+                <button type="submit" class="btn">Salvar e Calcular</button>
+            </form>
+
+            <div class="section" id="resultado" style="display: none;">
+                <h3>Resultado</h3>
+                <p id="pesoIdeal"></p>
+                <p id="diferencaPeso"></p>
+            </div>
+        </div>
+
+        <!-- Painel Direito: Diário -->
+        <div class="right-panel painel" id="diarioSecao">
+            <h2>Diário de Superação</h2>
+
+            <!-- Será inserido via JS: Peso quando iniciei e Meta do peso ideal -->
+
+            <!-- Será inserido via JS: Vícios como botões -->
+            <div id="checkboxDiario"></div>
+
+            <!-- Campo para peso atual -->
+            <label for="pesoAtual">Peso atual (kg):</label>
+            <input type="number" id="pesoAtual" placeholder="Informe seu peso hoje">
+
+            <!-- Relato do dia -->
+            <label for="relato">Relato do dia:</label>
+            <textarea id="relato" placeholder="Conte como foi seu dia..."></textarea>
+
+            <div class="botoes-diario">
+                <button onclick="salvarDiario()" class="btn">Salvar Diário</button>
+                <button onclick="mostrarRegistros()" class="btn">Ver Registros Anteriores</button>
+                <button onclick="limparRegistros()" class="btn">Limpar Registros</button>
+            </div>
+
+            <div id="registros"></div>
+
+            <!-- Botão para voltar -->
+            <button id="voltarBtn" class="btn">Voltar</button>
+        </div>
+    </div>
+
+    <script src="js/questionario.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

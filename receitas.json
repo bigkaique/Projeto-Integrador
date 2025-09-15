@@ -1,0 +1,1181 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Pizza Margherita Clássica",
+            "ingredients": [
+                "Massa de pizza",
+                "Molho de tomate",
+                "Queijo mussarela fresco",
+                "Folhas de manjericão fresco",
+                "Azeite de oliva",
+                "Sal e pimenta a gosto"
+            ],
+            "instructions": [
+                "Pré-aqueça o forno a 245°C",
+                "Abra a massa de pizza e espalhe o molho de tomate uniformemente.",
+                "Cubra com fatias de mussarela fresca e folhas de manjericão.",
+                "Regue com azeite de oliva e tempere com sal e pimenta.",
+                "Asse no forno pré-aquecido por 12-15 minutos ou até a borda dourar.",
+                "Fatie e sirva quente."
+            ],
+            "prepTimeMinutes": 20,
+            "cookTimeMinutes": 15,
+            "servings": 4,
+            "difficulty": "Easy",
+            "cuisine": "Italian",
+            "caloriesPerServing": 300,
+            "tags": [
+                "Pizza",
+                "Italian"
+            ],
+            "userId": 166,
+            "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+            "rating": 4.6,
+            "reviewCount": 98,
+            "mealType": [
+                "Dinner"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Stir-Fry Vegetariano",
+            "ingredients": [
+                "Tofu em cubos",
+                "Brócolis em floretes",
+                "Cenouras fatiadas",
+                "Pimentões fatiados",
+                "Molho de soja",
+                "Gengibre picado",
+                "Alho picado",
+                "Óleo de gergelim",
+                "Arroz cozido para servir"
+            ],
+            "instructions": [
+                "Em um wok, aqueça o óleo de gergelim em fogo médio-alto.",
+                "Adicione gengibre e alho picados, refogue até perfumar.",
+                "Adicione o tofu em cubos e frite até dourar.",
+                "Adicione brócolis, cenouras e pimentões. Cozinhe até os vegetais ficarem macios.",
+                "Despeje o molho de soja sobre o stir-fry e misture bem.",
+                "Sirva sobre arroz cozido."
+            ],
+            "prepTimeMinutes": 15,
+            "cookTimeMinutes": 20,
+            "servings": 3,
+            "difficulty": "Medium",
+            "cuisine": "Asian",
+            "caloriesPerServing": 250,
+            "tags": [
+                "Vegetarian",
+                "Stir-fry",
+                "Asian"
+            ],
+            "userId": 143,
+            "image": "https://cdn.dummyjson.com/recipe-images/2.webp",
+            "rating": 4.7,
+            "reviewCount": 26,
+            "mealType": [
+                "Lunch"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Cookies com Gotas de Chocolate",
+            "ingredients": [
+                "Farinha de trigo",
+                "Manteiga amolecida",
+                "Açúcar mascavo",
+                "Açúcar branco",
+                "Ovos",
+                "Extrato de baunilha",
+                "Bicarbonato de sódio",
+                "Sal",
+                "Gotas de chocolate"
+            ],
+            "instructions": [
+                "Pré-aqueça o forno a 175°C.",
+                "Em uma tigela, bata a manteiga, o açúcar mascavo e o açúcar branco.",
+                "Adicione os ovos um a um e misture o extrato de baunilha.",
+                "Misture a farinha, o bicarbonato e o sal. Adicione aos ingredientes úmidos.",
+                "Incorpore as gotas de chocolate.",
+                "Coloque colheradas da massa em assadeiras sem untar.",
+                "Asse por 10-12 minutos ou até as bordas dourarem.",
+                "Deixe esfriar alguns minutos antes de transferir para uma grade."
+            ],
+            "prepTimeMinutes": 15,
+            "cookTimeMinutes": 10,
+            "servings": 24,
+            "difficulty": "Easy",
+            "cuisine": "American",
+            "caloriesPerServing": 150,
+            "tags": [
+                "Cookies",
+                "Dessert",
+                "Baking"
+            ],
+            "userId": 34,
+            "image": "https://cdn.dummyjson.com/recipe-images/3.webp",
+            "rating": 4.9,
+            "reviewCount": 13,
+            "mealType": [
+                "Snack",
+                "Dessert"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Macarrão Alfredo com Frango",
+            "ingredients": [
+                "Macarrão fettuccine",
+                "Peito de frango em fatias",
+                "Creme de leite fresco",
+                "Queijo parmesão ralado",
+                "Alho picado",
+                "Manteiga",
+                "Sal e pimenta a gosto",
+                "Salsinha fresca para decorar"
+            ],
+            "instructions": [
+                "Cozinhe o fettuccine conforme as instruções da embalagem.",
+                "Em uma panela, refogue o frango na manteiga até cozinhar.",
+                "Adicione o alho picado e refogue até perfumar.",
+                "Despeje o creme de leite e o parmesão ralado. Mexa até o queijo derreter.",
+                "Tempere com sal e pimenta a gosto.",
+                "Misture o molho Alfredo ao macarrão cozido.",
+                "Decore com salsinha fresca antes de servir."
+            ],
+            "prepTimeMinutes": 15,
+            "cookTimeMinutes": 20,
+            "servings": 4,
+            "difficulty": "Medium",
+            "cuisine": "Italian",
+            "caloriesPerServing": 500,
+            "tags": [
+                "Pasta",
+                "Chicken"
+            ],
+            "userId": 136,
+            "image": "https://cdn.dummyjson.com/recipe-images/4.webp",
+            "rating": 4.9,
+            "reviewCount": 82,
+            "mealType": [
+                "Lunch",
+                "Dinner"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Frango com Salsa de Manga",
+            "ingredients": [
+                "Coxas de frango",
+                "Manga em cubos",
+                "Cebola roxa picada",
+                "Coentro picado",
+                "Suco de limão",
+                "Jalapeño picado",
+                "Sal e pimenta a gosto",
+                "Arroz cozido para servir"
+            ],
+            "instructions": [
+                "Tempere as coxas de frango com sal e pimenta.",
+                "Grelhe ou asse o frango até cozinhar.",
+                "Em uma tigela, misture manga, cebola roxa, coentro, jalapeño e suco de limão.",
+                "Pique o frango cozido e misture com a salsa de manga.",
+                "Sirva sobre arroz cozido."
+            ],
+            "prepTimeMinutes": 15,
+            "cookTimeMinutes": 25,
+            "servings": 3,
+            "difficulty": "Easy",
+            "cuisine": "Mexican",
+            "caloriesPerServing": 380,
+            "tags": [
+                "Chicken",
+                "Salsa"
+            ],
+            "userId": 26,
+            "image": "https://cdn.dummyjson.com/recipe-images/5.webp",
+            "rating": 4.9,
+            "reviewCount": 63,
+            "mealType": [
+                "Dinner"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Salada de Quinoa com Abacate",
+            "ingredients": [
+                "Quinoa cozida",
+                "Abacate em cubos",
+                "Tomate cereja cortado ao meio",
+                "Pepino em cubos",
+                "Pimentão vermelho em cubos",
+                "Queijo feta esfarelado",
+                "Molho vinagrete de limão",
+                "Sal e pimenta a gosto"
+            ],
+            "instructions": [
+                "Em uma tigela grande, misture a quinoa, abacate, tomate cereja, pepino, pimentão vermelho e queijo feta.",
+                "Regue com o molho vinagrete de limão e misture.",
+                "Tempere com sal e pimenta a gosto.",
+                "Leve à geladeira antes de servir."
+            ],
+            "prepTimeMinutes": 20,
+            "cookTimeMinutes": 15,
+            "servings": 4,
+            "difficulty": "Easy",
+            "cuisine": "Mediterranean",
+            "caloriesPerServing": 280,
+            "tags": [
+                "Salad",
+                "Quinoa"
+            ],
+            "userId": 197,
+            "image": "https://cdn.dummyjson.com/recipe-images/6.webp",
+            "rating": 4.4,
+            "reviewCount": 59,
+            "mealType": [
+                "Lunch",
+                "Side Dish"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Bruschetta de Tomate e Manjericão",
+            "ingredients": [
+                "Baguete fatiada",
+                "Tomates em cubos",
+                "Manjericão fresco picado",
+                "Alho picado",
+                "Glace de balsâmico",
+                "Azeite de oliva",
+                "Sal e pimenta a gosto"
+            ],
+            "instructions": [
+                "Pré-aqueça o forno a 190°C.",
+                "Coloque as fatias de baguete em uma assadeira e toste até dourar.",
+                "Em uma tigela, misture tomates, manjericão, alho e um fio de azeite.",
+                "Tempere com sal e pimenta.",
+                "Cubra cada fatia de baguete com a mistura de tomate e manjericão.",
+                "Regue com glace de balsâmico antes de servir."
+            ],
+            "prepTimeMinutes": 15,
+            "cookTimeMinutes": 10,
+            "servings": 6,
+            "difficulty": "Easy",
+            "cuisine": "Italian",
+            "caloriesPerServing": 120,
+            "tags": [
+                "Bruschetta",
+                "Italian"
+            ],
+            "userId": 137,
+            "image": "https://cdn.dummyjson.com/recipe-images/7.webp",
+            "rating": 4.7,
+            "reviewCount": 95,
+            "mealType": [
+                "Appetizer"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Carne com Brócolis ao Estilo Oriental",
+            "ingredients": [
+                "Filé de carne em tiras finas",
+                "Brócolis em floretes",
+                "Molho de soja",
+                "Molho de ostra",
+                "Óleo de gergelim",
+                "Alho picado",
+                "Gengibre picado",
+                "Amido de milho",
+                "Arroz branco cozido para servir"
+            ],
+            "instructions": [
+                "Em uma tigela, misture molho de soja, molho de ostra, óleo de gergelim e amido de milho para fazer o molho.",
+                "No wok, frite a carne até dourar. Reserve.",
+                "Refogue o brócolis, alho e gengibre no mesmo wok.",
+                "Volte a carne para o wok e despeje o molho.",
+                "Misture até aquecer e envolver tudo.",
+                "Sirva sobre arroz branco cozido."
+            ],
+            "prepTimeMinutes": 20,
+            "cookTimeMinutes": 15,
+            "servings": 4,
+            "difficulty": "Medium",
+            "cuisine": "Asian",
+            "caloriesPerServing": 380,
+            "tags": [
+                "Beef",
+                "Stir-fry",
+                "Asian"
+            ],
+            "userId": 18,
+            "image": "https://cdn.dummyjson.com/recipe-images/8.webp",
+            "rating": 4.7,
+            "reviewCount": 58,
+            "mealType": [
+                "Dinner"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Salada Caprese",
+            "ingredients": [
+                "Tomates em fatias",
+                "Queijo mussarela fresco em fatias",
+                "Folhas de manjericão fresco",
+                "Glace de balsâmico",
+                "Azeite extra virgem",
+                "Sal e pimenta a gosto"
+            ],
+            "instructions": [
+                "Arrume fatias alternadas de tomate e mussarela em uma travessa.",
+                "Coloque folhas de manjericão entre as fatias.",
+                "Regue com glace de balsâmico e azeite.",
+                "Tempere com sal e pimenta.",
+                "Sirva imediatamente como uma salada refrescante."
+            ],
+            "prepTimeMinutes": 10,
+            "cookTimeMinutes": 0,
+            "servings": 2,
+            "difficulty": "Easy",
+            "cuisine": "Italian",
+            "caloriesPerServing": 200,
+            "tags": [
+                "Salad",
+                "Caprese"
+            ],
+            "userId": 128,
+            "image": "https://cdn.dummyjson.com/recipe-images/9.webp",
+            "rating": 4.6,
+            "reviewCount": 82,
+            "mealType": [
+                "Lunch"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Macarrão com Camarão ao Alho e Limão",
+            "ingredients": [
+                "Macarrão linguine",
+                "Camarão limpo",
+                "Alho picado",
+                "Vinho branco",
+                "Suco de limão",
+                "Pimenta calabresa",
+                "Salsinha fresca picada",
+                "Sal e pimenta a gosto"
+            ],
+            "instructions": [
+                "Cozinhe o linguine conforme as instruções da embalagem.",
+                "Em uma frigideira, refogue o alho no azeite até perfumar.",
+                "Adicione o camarão e cozinhe até ficar rosado.",
+                "Despeje o vinho branco e o suco de limão. Cozinhe até engrossar levemente.",
+                "Tempere com pimenta calabresa, sal e pimenta.",
+                "Misture o linguine cozido ao molho de camarão.",
+                "Decore com salsinha fresca antes de servir."
+            ],
+            "prepTimeMinutes": 15,
+            "cookTimeMinutes": 20,
+            "servings": 3,
+            "difficulty": "Medium",
+            "cuisine": "Italian",
+            "caloriesPerServing": 400,
+            "tags": [
+                "Pasta",
+                "Shrimp"
+            ],
+            "userId": 114,
+            "image": "https://cdn.dummyjson.com/recipe-images/10.webp",
+            "rating": 4.3,
+            "reviewCount": 5,
+            "mealType": [
+                "Dinner"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Tacos de Peixe",
+            "ingredients": [
+                "Filés de peixe branco",
+                "Tortilhas de milho",
+                "Repolho roxo fatiado",
+                "Molho de iogurte",
+                "Suco de limão",
+                "Coentro picado",
+                "Pimenta em pó",
+                "Sal e pimenta a gosto"
+            ],
+            "instructions": [
+                "Tempere os filés de peixe com pimenta em pó, sal e pimenta.",
+                "Grelhe ou frite o peixe até ficar cozido.",
+                "Aqueça as tortilhas de milho.",
+                "Monte os tacos com peixe, repolho, molho de iogurte e coentro.",
+                "Regue com suco de limão antes de servir."
+            ],
+            "prepTimeMinutes": 20,
+            "cookTimeMinutes": 15,
+            "servings": 4,
+            "difficulty": "Medium",
+            "cuisine": "Mexican",
+            "caloriesPerServing": 320,
+            "tags": [
+                "Taco",
+                "Fish"
+            ],
+            "userId": 55,
+            "image": "https://cdn.dummyjson.com/recipe-images/11.webp",
+            "rating": 4.8,
+            "reviewCount": 41,
+            "mealType": [
+                "Lunch",
+                "Dinner"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Risoto de Cogumelos",
+            "ingredients": [
+                "Arroz arbório",
+                "Cogumelos fatiados",
+                "Caldo de legumes",
+                "Cebola picada",
+                "Alho picado",
+                "Vinho branco",
+                "Queijo parmesão ralado",
+                "Manteiga",
+                "Salsinha picada",
+                "Sal e pimenta a gosto"
+            ],
+            "instructions": [
+                "Refogue a cebola e o alho na manteiga até ficarem macios.",
+                "Adicione os cogumelos e cozinhe até dourar.",
+                "Junte o arroz arbório e mexa por 1 minuto.",
+                "Adicione o vinho branco e mexa até evaporar.",
+                "Acrescente o caldo de legumes aos poucos, mexendo sempre, até o arroz ficar cremoso.",
+                "Misture o parmesão e ajuste o sal e a pimenta.",
+                "Finalize com salsinha picada antes de servir."
+            ],
+            "prepTimeMinutes": 15,
+            "cookTimeMinutes": 30,
+            "servings": 4,
+            "difficulty": "Medium",
+            "cuisine": "Italian",
+            "caloriesPerServing": 350,
+            "tags": [
+                "Risotto",
+                "Vegetarian"
+            ],
+            "userId": 61,
+            "image": "https://cdn.dummyjson.com/recipe-images/12.webp",
+            "rating": 4.7,
+            "reviewCount": 37,
+            "mealType": [
+                "Dinner"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Salada Grega",
+            "ingredients": [
+                "Tomate em cubos",
+                "Pepino em cubos",
+                "Cebola roxa fatiada",
+                "Azeitonas pretas",
+                "Queijo feta em cubos",
+                "Azeite de oliva",
+                "Orégano seco",
+                "Sal e pimenta a gosto"
+            ],
+            "instructions": [
+                "Em uma tigela, misture tomate, pepino, cebola roxa, azeitonas e queijo feta.",
+                "Regue com azeite de oliva.",
+                "Tempere com orégano, sal e pimenta.",
+                "Misture delicadamente e sirva gelada."
+            ],
+            "prepTimeMinutes": 10,
+            "cookTimeMinutes": 0,
+            "servings": 4,
+            "difficulty": "Easy",
+            "cuisine": "Greek",
+            "caloriesPerServing": 180,
+            "tags": [
+                "Salad",
+                "Vegetarian"
+            ],
+            "userId": 77,
+            "image": "https://cdn.dummyjson.com/recipe-images/13.webp",
+            "rating": 4.5,
+            "reviewCount": 22,
+            "mealType": [
+                "Lunch",
+                "Side Dish"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Sopa de Abóbora",
+            "ingredients": [
+                "Abóbora descascada e picada",
+                "Cebola picada",
+                "Alho picado",
+                "Caldo de legumes",
+                "Creme de leite",
+                "Azeite de oliva",
+                "Sal e pimenta a gosto",
+                "Salsinha para decorar"
+            ],
+            "instructions": [
+                "Refogue a cebola e o alho no azeite até dourar.",
+                "Adicione a abóbora e refogue por alguns minutos.",
+                "Despeje o caldo de legumes e cozinhe até a abóbora ficar macia.",
+                "Bata a sopa no liquidificador até ficar cremosa.",
+                "Volte à panela, adicione o creme de leite e aqueça.",
+                "Tempere com sal e pimenta.",
+                "Decore com salsinha antes de servir."
+            ],
+            "prepTimeMinutes": 15,
+            "cookTimeMinutes": 25,
+            "servings": 4,
+            "difficulty": "Easy",
+            "cuisine": "Brazilian",
+            "caloriesPerServing": 160,
+            "tags": [
+                "Soup",
+                "Vegetarian"
+            ],
+            "userId": 82,
+            "image": "https://cdn.dummyjson.com/recipe-images/14.webp",
+            "rating": 4.6,
+            "reviewCount": 29,
+            "mealType": [
+                "Dinner"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Omelete de Espinafre e Queijo",
+            "ingredients": [
+                "Ovos",
+                "Espinafre picado",
+                "Queijo ralado",
+                "Leite",
+                "Sal e pimenta a gosto",
+                "Manteiga"
+            ],
+            "instructions": [
+                "Bata os ovos com leite, sal e pimenta.",
+                "Aqueça a manteiga em uma frigideira.",
+                "Adicione o espinafre e refogue rapidamente.",
+                "Despeje os ovos batidos e cozinhe até firmar.",
+                "Polvilhe o queijo por cima e dobre a omelete.",
+                "Sirva quente."
+            ],
+            "prepTimeMinutes": 10,
+            "cookTimeMinutes": 10,
+            "servings": 2,
+            "difficulty": "Easy",
+            "cuisine": "French",
+            "caloriesPerServing": 220,
+            "tags": [
+                "Omelette",
+                "Breakfast"
+            ],
+            "userId": 93,
+            "image": "https://cdn.dummyjson.com/recipe-images/15.webp",
+            "rating": 4.8,
+            "reviewCount": 34,
+            "mealType": [
+                "Breakfast"
+            ]
+        },
+        {
+        "id": 16,
+    "name": "Curry de Grão-de-Bico",
+    "ingredients": [
+        "Grão-de-bico cozido",
+        "Tomate picado",
+        "Cebola picada",
+        "Alho picado",
+        "Gengibre ralado",
+        "Leite de coco",
+        "Curry em pó",
+        "Coentro fresco",
+        "Azeite de oliva",
+        "Sal e pimenta a gosto"
+    ],
+    "instructions": [
+        "Aqueça o azeite em uma panela e refogue a cebola, o alho e o gengibre até dourar.",
+        "Adicione o curry em pó e mexa por 1 minuto.",
+        "Junte o tomate picado e cozinhe até desmanchar.",
+        "Adicione o grão-de-bico e o leite de coco, misture bem.",
+        "Cozinhe em fogo baixo até engrossar.",
+        "Tempere com sal e pimenta.",
+        "Finalize com coentro fresco antes de servir."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Indian",
+    "caloriesPerServing": 320,
+    "tags": [
+        "Curry",
+        "Vegetarian"
+    ],
+    "userId": 101,
+    "image": "https://cdn.dummyjson.com/recipe-images/16.webp",
+    "rating": 4.7,
+    "reviewCount": 44,
+    "mealType": [
+        "Dinner"
+    ]
+},
+{
+    "id": 17,
+    "name": "Panquecas Americanas",
+    "ingredients": [
+        "Farinha de trigo",
+        "Leite",
+        "Ovos",
+        "Açúcar",
+        "Fermento em pó",
+        "Sal",
+        "Manteiga derretida",
+        "Essência de baunilha"
+    ],
+    "instructions": [
+        "Em uma tigela, misture a farinha, o açúcar, o fermento e o sal.",
+        "Em outra tigela, bata os ovos, o leite, a manteiga derretida e a baunilha.",
+        "Junte os ingredientes líquidos aos secos e misture até ficar homogêneo.",
+        "Aqueça uma frigideira antiaderente e despeje porções da massa.",
+        "Cozinhe até formar bolhas, vire e doure do outro lado.",
+        "Sirva com mel, frutas ou o acompanhamento de sua preferência."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 210,
+    "tags": [
+        "Pancake",
+        "Breakfast"
+    ],
+    "userId": 112,
+    "image": "https://cdn.dummyjson.com/recipe-images/17.webp",
+    "rating": 4.8,
+    "reviewCount": 53,
+    "mealType": [
+        "Breakfast"
+    ]
+},
+{
+    "id": 18,
+    "name": "Tabule",
+    "ingredients": [
+        "Trigo para quibe",
+        "Tomate picado",
+        "Pepino picado",
+        "Cebola picada",
+        "Salsinha picada",
+        "Hortelã picada",
+        "Azeite de oliva",
+        "Suco de limão",
+        "Sal e pimenta a gosto"
+    ],
+    "instructions": [
+        "Hidrate o trigo para quibe conforme instruções da embalagem.",
+        "Misture o trigo hidratado com tomate, pepino, cebola, salsinha e hortelã.",
+        "Tempere com azeite, suco de limão, sal e pimenta.",
+        "Misture bem e leve à geladeira antes de servir."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Middle Eastern",
+    "caloriesPerServing": 120,
+    "tags": [
+        "Salad",
+        "Vegetarian"
+    ],
+    "userId": 121,
+    "image": "https://cdn.dummyjson.com/recipe-images/18.webp",
+    "rating": 4.6,
+    "reviewCount": 28,
+    "mealType": [
+        "Lunch",
+        "Side Dish"
+    ]
+},
+{
+    "id": 19,
+    "name": "Moqueca de Peixe",
+    "ingredients": [
+        "Filé de peixe",
+        "Pimentão vermelho em rodelas",
+        "Pimentão amarelo em rodelas",
+        "Tomate em rodelas",
+        "Cebola em rodelas",
+        "Alho picado",
+        "Leite de coco",
+        "Azeite de dendê",
+        "Coentro picado",
+        "Sal e pimenta a gosto"
+    ],
+    "instructions": [
+        "Tempere o peixe com sal, pimenta e alho.",
+        "Em uma panela, faça camadas de peixe, pimentões, tomate e cebola.",
+        "Regue com leite de coco e azeite de dendê.",
+        "Cozinhe em fogo baixo até o peixe ficar macio.",
+        "Finalize com coentro picado antes de servir."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Brazilian",
+    "caloriesPerServing": 350,
+    "tags": [
+        "Fish",
+        "Brazilian"
+    ],
+    "userId": 132,
+    "image": "https://cdn.dummyjson.com/recipe-images/19.webp",
+    "rating": 4.9,
+    "reviewCount": 61,
+    "mealType": [
+        "Lunch",
+        "Dinner"
+    ]
+},
+{
+    "id": 20,
+    "name": "Guacamole",
+    "ingredients": [
+        "Abacate maduro",
+        "Tomate picado",
+        "Cebola picada",
+        "Coentro picado",
+        "Suco de limão",
+        "Pimenta jalapeño picada",
+        "Sal a gosto"
+    ],
+    "instructions": [
+        "Amasse o abacate em uma tigela.",
+        "Adicione tomate, cebola, coentro e jalapeño.",
+        "Tempere com suco de limão e sal.",
+        "Misture bem e sirva imediatamente."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Mexican",
+    "caloriesPerServing": 90,
+    "tags": [
+        "Dip",
+        "Vegetarian"
+    ],
+    "userId": 141,
+    "image": "https://cdn.dummyjson.com/recipe-images/20.webp",
+    "rating": 4.8,
+    "reviewCount": 47,
+    "mealType": [
+        "Appetizer",
+        "Snack"
+    ]
+},
+{
+    "id": 21,
+    "name": "Ceviche de Tilápia",
+    "ingredients": [
+        "Filé de tilápia cortado em cubos",
+        "Suco de limão",
+        "Cebola roxa fatiada",
+        "Tomate picado",
+        "Coentro picado",
+        "Pimenta dedo-de-moça picada",
+        "Sal a gosto"
+    ],
+    "instructions": [
+        "Coloque o peixe em uma tigela e cubra com o suco de limão.",
+        "Deixe marinar por 20 minutos até o peixe ficar opaco.",
+        "Adicione a cebola, tomate, coentro e pimenta.",
+        "Tempere com sal e misture bem.",
+        "Sirva gelado como entrada."
+    ],
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Peruvian",
+    "caloriesPerServing": 120,
+    "tags": [
+        "Fish",
+        "Appetizer"
+    ],
+    "userId": 150,
+    "image": "https://cdn.dummyjson.com/recipe-images/21.webp",
+    "rating": 4.7,
+    "reviewCount": 38,
+    "mealType": [
+        "Appetizer"
+    ]
+},
+{
+    "id": 22,
+    "name": "Escondidinho de Carne Seca",
+    "ingredients": [
+        "Carne seca desfiada",
+        "Purê de mandioca",
+        "Cebola picada",
+        "Alho picado",
+        "Azeite de oliva",
+        "Queijo coalho ralado",
+        "Sal e pimenta a gosto"
+    ],
+    "instructions": [
+        "Refogue a carne seca com cebola e alho no azeite.",
+        "Em um refratário, faça uma camada de purê de mandioca.",
+        "Adicione a carne seca refogada por cima.",
+        "Cubra com mais purê e finalize com queijo coalho ralado.",
+        "Leve ao forno para gratinar até dourar.",
+        "Sirva quente."
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 30,
+    "servings": 6,
+    "difficulty": "Medium",
+    "cuisine": "Brazilian",
+    "caloriesPerServing": 380,
+    "tags": [
+        "Beef",
+        "Brazilian"
+    ],
+    "userId": 160,
+    "image": "https://cdn.dummyjson.com/recipe-images/22.webp",
+    "rating": 4.8,
+    "reviewCount": 42,
+    "mealType": [
+        "Lunch",
+        "Dinner"
+    ]
+},
+{
+    "id": 23,
+    "name": "Falafel",
+    "ingredients": [
+        "Grão-de-bico",
+        "Cebola picada",
+        "Alho picado",
+        "Salsinha picada",
+        "Coentro picado",
+        "Cominho em pó",
+        "Fermento em pó",
+        "Sal e pimenta a gosto",
+        "Óleo para fritar"
+    ],
+    "instructions": [
+        "Deixe o grão-de-bico de molho por 8 horas e escorra.",
+        "Bata no processador com cebola, alho, salsinha, coentro e cominho.",
+        "Adicione fermento, sal e pimenta.",
+        "Modele bolinhas e frite em óleo quente até dourar.",
+        "Escorra em papel toalha e sirva."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Middle Eastern",
+    "caloriesPerServing": 210,
+    "tags": [
+        "Vegetarian",
+        "Snack"
+    ],
+    "userId": 170,
+    "image": "https://cdn.dummyjson.com/recipe-images/23.webp",
+    "rating": 4.6,
+    "reviewCount": 29,
+    "mealType": [
+        "Snack",
+        "Lunch"
+    ]
+},
+{
+    "id": 24,
+    "name": "Bolo de Cenoura",
+    "ingredients": [
+        "Cenoura picada",
+        "Ovos",
+        "Açúcar",
+        "Óleo",
+        "Farinha de trigo",
+        "Fermento em pó",
+        "Chocolate em pó",
+        "Manteiga",
+        "Leite"
+    ],
+    "instructions": [
+        "Bata no liquidificador a cenoura, ovos, açúcar e óleo.",
+        "Transfira para uma tigela e misture a farinha e o fermento.",
+        "Despeje em forma untada e asse em forno pré-aquecido a 180°C por 40 minutos.",
+        "Para a cobertura, leve ao fogo o chocolate, manteiga e leite até engrossar.",
+        "Despeje sobre o bolo desenformado."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "servings": 10,
+    "difficulty": "Easy",
+    "cuisine": "Brazilian",
+    "caloriesPerServing": 250,
+    "tags": [
+        "Cake",
+        "Dessert"
+    ],
+    "userId": 180,
+    "image": "https://cdn.dummyjson.com/recipe-images/24.webp",
+    "rating": 4.9,
+    "reviewCount": 57,
+    "mealType": [
+        "Dessert",
+        "Snack"
+    ]
+},
+{
+    "id": 25,
+    "name": "Salada Caesar",
+    "ingredients": [
+        "Alface romana",
+        "Croutons",
+        "Queijo parmesão ralado",
+        "Peito de frango grelhado",
+        "Molho Caesar",
+        "Sal e pimenta a gosto"
+    ],
+    "instructions": [
+        "Rasgue as folhas de alface e coloque em uma tigela.",
+        "Adicione o frango grelhado fatiado, croutons e parmesão.",
+        "Regue com molho Caesar.",
+        "Tempere com sal e pimenta e misture bem.",
+        "Sirva imediatamente."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 320,
+    "tags": [
+        "Salad",
+        "Chicken"
+    ],
+    "userId": 190,
+    "image": "https://cdn.dummyjson.com/recipe-images/25.webp",
+    "rating": 4.7,
+    "reviewCount": 36,
+    "mealType": [
+        "Lunch"
+    ]
+},
+
+{
+    "id": 26,
+    "name": "Quiche de Alho-Poró",
+    "ingredients": [
+        "Massa para quiche",
+        "Alho-poró fatiado",
+        "Ovos",
+        "Creme de leite",
+        "Queijo ralado",
+        "Sal e pimenta a gosto",
+        "Noz-moscada"
+    ],
+    "instructions": [
+        "Pré-aqueça o forno a 180°C.",
+        "Forre uma forma com a massa para quiche.",
+        "Refogue o alho-poró até ficar macio.",
+        "Em uma tigela, bata os ovos, creme de leite, queijo, sal, pimenta e noz-moscada.",
+        "Espalhe o alho-poró sobre a massa e cubra com a mistura de ovos.",
+        "Asse por 35-40 minutos ou até dourar.",
+        "Deixe esfriar um pouco antes de servir."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "servings": 6,
+    "difficulty": "Medium",
+    "cuisine": "French",
+    "caloriesPerServing": 280,
+    "tags": [
+        "Quiche",
+        "Vegetarian"
+    ],
+    "userId": 200,
+    "image": "https://cdn.dummyjson.com/recipe-images/26.webp",
+    "rating": 4.7,
+    "reviewCount": 31,
+    "mealType": [
+        "Lunch",
+        "Dinner"
+    ]
+},
+{
+    "id": 27,
+    "name": "Hambúrguer Caseiro",
+    "ingredients": [
+        "Carne moída",
+        "Pão de hambúrguer",
+        "Queijo",
+        "Alface",
+        "Tomate",
+        "Cebola",
+        "Sal e pimenta a gosto",
+        "Molho de sua preferência"
+    ],
+    "instructions": [
+        "Tempere a carne moída com sal e pimenta e modele os hambúrgueres.",
+        "Grelhe ou frite os hambúrgueres até o ponto desejado.",
+        "Monte o hambúrguer com pão, carne, queijo, alface, tomate, cebola e molho.",
+        "Sirva imediatamente."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 350,
+    "tags": [
+        "Burger",
+        "Beef"
+    ],
+    "userId": 210,
+    "image": "https://cdn.dummyjson.com/recipe-images/27.webp",
+    "rating": 4.8,
+    "reviewCount": 40,
+    "mealType": [
+        "Lunch",
+        "Dinner"
+    ]
+},
+{
+    "id": 28,
+    "name": "Torta de Frango",
+    "ingredients": [
+        "Massa para torta",
+        "Peito de frango desfiado",
+        "Cebola picada",
+        "Alho picado",
+        "Milho",
+        "Ervilha",
+        "Requeijão",
+        "Sal e pimenta a gosto"
+    ],
+    "instructions": [
+        "Pré-aqueça o forno a 180°C.",
+        "Refogue o frango com cebola e alho, adicione milho, ervilha e requeijão.",
+        "Tempere com sal e pimenta.",
+        "Forre uma forma com metade da massa, coloque o recheio e cubra com o restante da massa.",
+        "Asse por 35-40 minutos ou até dourar.",
+        "Deixe esfriar um pouco antes de servir."
+    ],
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 40,
+    "servings": 8,
+    "difficulty": "Medium",
+    "cuisine": "Brazilian",
+    "caloriesPerServing": 320,
+    "tags": [
+        "Pie",
+        "Chicken"
+    ],
+    "userId": 220,
+    "image": "https://cdn.dummyjson.com/recipe-images/28.webp",
+    "rating": 4.7,
+    "reviewCount": 35,
+    "mealType": [
+        "Lunch",
+        "Dinner"
+    ]
+},
+{
+    "id": 29,
+    "name": "Brownie de Chocolate",
+    "ingredients": [
+        "Chocolate meio amargo",
+        "Manteiga",
+        "Açúcar",
+        "Ovos",
+        "Farinha de trigo",
+        "Nozes picadas (opcional)",
+        "Sal"
+    ],
+    "instructions": [
+        "Pré-aqueça o forno a 180°C.",
+        "Derreta o chocolate com a manteiga.",
+        "Misture o açúcar, os ovos e o sal.",
+        "Adicione a farinha e as nozes, se desejar.",
+        "Despeje em uma forma untada e asse por 25-30 minutos.",
+        "Deixe esfriar antes de cortar."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 12,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 210,
+    "tags": [
+        "Brownie",
+        "Dessert"
+    ],
+    "userId": 230,
+    "image": "https://cdn.dummyjson.com/recipe-images/29.webp",
+    "rating": 4.9,
+    "reviewCount": 50,
+    "mealType": [
+        "Dessert",
+        "Snack"
+    ]
+},
+{
+    "id": 30,
+    "name": "Salada de Frutas",
+    "ingredients": [
+        "Maçã picada",
+        "Banana picada",
+        "Laranja em pedaços",
+        "Morangos fatiados",
+        "Uvas",
+        "Suco de laranja",
+        "Mel (opcional)"
+    ],
+    "instructions": [
+        "Misture todas as frutas em uma tigela grande.",
+        "Regue com suco de laranja e mel, se desejar.",
+        "Misture delicadamente e leve à geladeira antes de servir."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "servings": 6,
+    "difficulty": "Easy",
+    "cuisine": "Brazilian",
+    "caloriesPerServing": 90,
+    "tags": [
+        "Salad",
+        "Fruit"
+    ],
+    "userId": 240,
+    "image": "https://cdn.dummyjson.com/recipe-images/30.webp",
+    "rating": 4.8,
+    "reviewCount": 45,
+    "mealType": [
+        "Dessert",
+        "Snack"
+    ]
+}
+    ],
+    "total": 30,
+    "skip": 0,
+    "limit": 30
+}

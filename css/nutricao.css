@@ -1,0 +1,154 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f2027;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu de navegação */
+.menu {
+  background-color: #1c1c1c;
+  padding: 1em;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin: 1.5em 0 1em;
+  color: #f3f4f5;
+}
+h2 {
+  text-align: center;
+  margin: 1em 0;
+  color: #f7f6f5;
+}
+h3 {
+  text-align: center;
+  margin: 0.5em 0;
+  color: #faf9f8;
+}
+
+/* Estilo do formulário */
+#ingredientes, #alimento {
+  width: 20%;          /* antes era 100% */
+  padding: 10px;       /* diminui um pouco o padding */
+  margin: 1em auto;    /* centraliza e ajusta margens */
+  display: block;      /* garante que fique centralizado */
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+/* Botoes */
+button {
+  background-color: #00bfff;
+  color: white;
+  padding: 10px 20px;    /* menor altura e largura */
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0.5em auto;    /* centraliza */
+  display: block;        /* centraliza */
+  width: 10%;           /* deixa o tamanho conforme conteúdo */
+  transition: background-color 0.3s;
+}
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #0095c7;
+}
+
+/* Container das receitas */
+#receitas, #resultado {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5em;
+  padding: 1em;
+}
+
+/* Bloco de conteúdo (receita ou nutriente) */
+.bloco-receita, .bloco-nutriente {
+  background-color: #1f2f38;
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.bloco-receita:hover, .bloco-nutriente:hover {
+  transform: scale(1.03);
+}
+
+.bloco-receita img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+
+/* Título da receita */
+.bloco-receita h3 {
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+.bloco-receita ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* Texto em negrito */
+.bloco-receita strong, .bloco-nutriente strong {
+  font-size: 1em;
+  color: #ffd54f;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #ingredientes, #alimento {
+    font-size: 1em;
+  }
+
+  button {
+    font-size: 0.9em;
+  }
+}
+/* Estilo para o botão de voltar */
+#voltar {
+  background-color: #00bfff;
+  color: white;
+  padding: 0.8em 1em;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 1.5em;
+  width: 100%;
+  transition: background-color 0.3s;
+}

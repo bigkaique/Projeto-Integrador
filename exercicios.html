@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exercícios por Parte do Corpo</title>
+  <link rel="stylesheet" href="css/exercicios.css" />
+</head>
+<body>
+  <nav class="menu">
+    <a href="exercicios.html">🏋️ Exercícios</a>
+    <a href="nutricao.html">🥗 Nutrição</a>
+    <!---- <a href="metricas.html">📊 Sua Evolucao até aqui</a> -->
+    <a href="questionario.html">📓 Voltar para o diario</a>
+    
+  </nav>
+
+  <main>
+    <h1>Encontre Exercícios para o Corpo</h1>
+    <div class="filtro">
+      <label for="bodyPart">Escolha a parte do corpo:</label>
+      <select id="bodyPart">
+        <option value="">--Selecione--</option>
+      </select>
+      <button onclick="buscarExercicios()">Buscar</button>
+    </div>
+
+    <div id="resultados" class="grid"></div>
+  </main>
+
+  <script src="js/exercicios.js"></script>
+</body>
+</html>
